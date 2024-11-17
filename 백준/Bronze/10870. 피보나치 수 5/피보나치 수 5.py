@@ -1,6 +1,5 @@
 import sys
 input = sys.stdin.readline
-from itertools import accumulate
 
 n = int(input())
 
@@ -8,6 +7,5 @@ n = int(input())
 acc_nums = [0,1] 
 for i in range(n+1):
   acc_nums.append(acc_nums[i]+acc_nums[-1])
-
 
 print(acc_nums[n])
