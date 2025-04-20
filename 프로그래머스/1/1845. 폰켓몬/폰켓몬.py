@@ -1,6 +1,6 @@
 def solution(nums):
     answer = 0
-    count_choice = int(len(nums)/2)
+    count_choice = len(nums) // 2
 
     category = set(nums)
     count_category = len(category)
